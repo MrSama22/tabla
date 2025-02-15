@@ -1,0 +1,136 @@
+.agregar_btn{
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:20px ;
+    border-radius: 10px;
+    border: none;
+    color:rgb(110, 110, 110);
+    background-color: #b9dfe8;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    
+}
+
+.agregar_btn:hover{
+  transform: scale(1.1);
+  background-color: #9dd8e6;
+
+}
+.agregar_btn:focus{
+  background-color: #c8eff8;
+
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+    
+    
+}
+table {
+    
+  margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+    
+  }
+                /* tabla */
+
+  th,td{
+    border: 1px solid #5e5e5e;
+
+  }
+  th{
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+    
+  }
+  th:first-child{
+    background-color: #a6a6a6;
+  }
+  th:nth-child(even){
+    background-color: #ffb7b7;
+  }
+  th:nth-child(odd){
+    background-color:#ff9999 ;
+  }
+  
+  td{
+    
+    padding: none;
+    text-align: center;
+
+  }
+  td:first-child, tr td:first-child input{
+    background-color: #f2f2f2;
+  }
+
+
+  /* text */
+
+  tr input{
+    width: 50%;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    color: #000;
+    margin :20px;
+    
+  }
+
+  textarea {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: none;
+    min-height: 50px;
+    max-height: 100px;
+    max-width: 300px;
+    min-width: 200px;
+    border: none;
+    font-size: 16px;
+  }
+  textarea::placeholder{
+    text-align: center;
+  }
+  input,textarea{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+  }
+  input:focus , textarea:focus{
+    outline: none;
+  }
+
+  .eliminar_btn{
+    font-size:30px;
+    background: none;
+    border: none;
+    color: rgb(228, 82, 82);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: bottom;
+    transition: all 0.5s ease;
+    /* position: relative; */
+
+  }
+  .eliminar_btn:hover{
+    transform: scale(1.2);
+  }
+  .eliminar_btn:focus{
+    color: rgb(185, 67, 67);
+  }
+
+
+  .boton{
+    text-align: center;
+    display: block;
+    
+  }
+.numero{
+padding-top: 10px;
+}
